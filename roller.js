@@ -18,3 +18,7 @@ Hooks.on("ready", function() {
     texture: "tiles/fire.jpg"
   });
 });
+MeasuredTemplate.activateListeners(function(){
+  var center = this.center;
+  console.log(center);
+});
