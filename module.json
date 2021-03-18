@@ -1,6 +1,6 @@
 {
   "name": "targetTemplate",
-  "title": "target-Template - Allow to select tokens with templates",
+  "title": "1 target-Template - Allow to select tokens with templates",
   "description": "A simple module created for selecting tokens with templates in the Foundry Virtual Tabletop framework.",
   "author": "Manolck",
   "version": "0.1",
