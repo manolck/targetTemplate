@@ -1,3 +1,4 @@
+Hooks.on("ready", function() {
   MeasuredTemplate.create({
     t: "circle",
     user: game.user._id,
@@ -7,7 +8,7 @@
     borderColor: "#FF0000",
     fillColor: "#FF3366",
   });
-
+});
 MeasuredTemplate.activateListeners(function(e){
   console.log(e);
   var center = e.center;
