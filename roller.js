@@ -9,6 +9,8 @@ Hooks.on("ready", function() {
     borderColor: "#FF0000",
     fillColor: "#FF3366",
   });
-  console.log('test');
-console.log('test',template);
+template.then((value) => {
+  console.log('test',value);
+});
+
 });
