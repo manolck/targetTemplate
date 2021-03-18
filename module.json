@@ -4,7 +4,7 @@
   "description": "A simple module created for selecting tokens with templates in the Foundry Virtual Tabletop framework.",
   "author": "Manolck",
   "version": "0.1",
-  "minimumCoreVersion": "0.5.0",
+  "minimumCoreVersion": "0.7.5",
   "scripts": [
         "/roller.js"
     ],
@@ -13,5 +13,6 @@
     ],
     "url": "https://github.com/manolck/targetTemplate",
     "manifest": "https://raw.githubusercontent.com/manolck/targetTemplate/main/module.json",
-    "download": "https://github.com/manolck/targetTemplate/archive/main.zip"
+    "download": "https://github.com/manolck/targetTemplate/archive/main.zip",
+    "socket": true,
 }
