@@ -10,7 +10,7 @@ Hooks.on("ready", function() {
     fillColor: "#FF3366",
   });
 template.then((value) => {
-  console.log('test',value);
+  console.log('test',value.data);
 });
 
 });
