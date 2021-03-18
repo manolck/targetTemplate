@@ -1,5 +1,5 @@
 Hooks.on("ready", function() {
-  MeasuredTemplate.create({
+  var template = MeasuredTemplate.create({
     t: "circle",
     user: game.user._id,
     x: 2100,
@@ -10,5 +10,5 @@ Hooks.on("ready", function() {
     fillColor: "#FF3366",
   });
   console.log('test');
-console.log(MeasuredTemplate.data);
+console.log(template.data);
 });
