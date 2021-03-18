@@ -9,8 +9,10 @@ Hooks.on("ready", function() {
     borderColor: "#FF0000",
     fillColor: "#FF3366",
   });
-template.then((value) => {
-  console.log('test',value.data);
+template.then((object) => {
+  object.activateListeners((e) => {
+    console.log(e);
+  }),
 });
 
 });
