@@ -12,5 +12,6 @@
         "/css/targetTemplate.css"
     ],
     "url": "https://github.com/manolck/targetTemplate",
-    "manifest": "https://raw.githubusercontent.com/manolck/targetTemplate/main/module.json"
+    "manifest": "https://raw.githubusercontent.com/manolck/targetTemplate/main/module.json",
+    "download": "https://github.com/manolck/targetTemplate/archive/main.zip"
 }
