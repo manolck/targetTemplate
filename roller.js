@@ -10,5 +10,5 @@ Hooks.on("ready", function() {
     fillColor: "#FF3366",
   });
   console.log('test');
-console.log(template);
+console.log('test',template);
 });
