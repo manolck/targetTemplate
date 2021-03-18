@@ -5,12 +5,6 @@
   "author": "Manolck",
   "version": "0.1",
   "minimumCoreVersion": "0.5.0",
-  "scripts": [
-        "/roller.js"
-    ],
-  "styles": [
-        "/css/targetTemplate.css"
-    ],
-    "url": "https://github.com/manolck/targetTemplate",
-    "manifest": "https://raw.githubusercontent.com/manolck/targetTemplate/main/module.json"
+  "url": "https://github.com/manolck/targetTemplate",
+  "manifest": "https://raw.githubusercontent.com/manolck/targetTemplate/main/module.json"
 }
