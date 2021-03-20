@@ -10,7 +10,7 @@ class Templates {
     $(document).unbind('keydown',Templates.onKeyDown);
     $(document).keydown(Templates.onKeyDown);
   }
-  static onHoverTemplate(template,hovered) {
+  static onHoverTemplate(template) {
     console.log(template)
   }
 }
@@ -18,4 +18,4 @@ class Templates {
 
 
 Hooks.on('canvasReady', Templates.ready);
-Hooks.on('hoverMeasuredTemplate',Templates.onHoverToken);
+Hooks.on('hoverMeasuredTemplate',Templates.onHoverTemplate);
