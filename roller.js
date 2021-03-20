@@ -12,7 +12,6 @@ class Templates {
   }
   static onHoverTemplate(template,hovered) {
     console.log(template)
-    Templates.hovering = hovered ? template : undefined;
   }
 }
 
