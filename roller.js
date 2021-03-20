@@ -1,5 +1,6 @@
 class Templates {
   static onkeyDown(e){
+    console.log(e);
     if(e.which == 17){
       if (Templates.hovering){
         console.log(Templates)
@@ -7,11 +8,11 @@ class Templates {
     }
   }
   static ready(){
-    $(document).unbind('keydown',Templates.onKeyDown);
+    $(document).off('keydown',Templates.onKeyDown);
     $(document).keydown(Templates.onKeyDown);
   }
   static onHoverTemplate(template) {
-    console.log(template)
+    return 1
   }
 }
 
