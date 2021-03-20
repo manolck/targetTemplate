@@ -8,6 +8,5 @@ Hooks.on('canvasReady', (canvas) => {
 }
 
 Hooks.on('hoverMeasuredTemplate', (template) => {
-
-    console.log('template:',template);
+  console.log('template:',template);
 });
