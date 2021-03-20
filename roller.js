@@ -3,7 +3,7 @@ Hooks.on('canvasReady', (canvas) => {
     if (event.keyCode == 17) {
       console.log('ctrl');
     }
-  )};
+  });
 }
 
 Hooks.on('hoverMeasuredTemplate', (template) => {
