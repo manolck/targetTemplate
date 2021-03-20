@@ -11,6 +11,7 @@ class Templates {
     $(document).keydown(Templates.onKeyDown);
   }
   static onHoverTemplate(template,hovered) {
+    console.log(template)
     Templates.hovering = hovered ? template : undefined;
   }
 }
